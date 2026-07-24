@@ -28,23 +28,37 @@ void mashq2(void) {
 
       if(ball >= 70){
         if(atendance >= 90){
-          printf("Congratulations!\nYou passed.");         
+          printf("Congratulations!\nYou passed.\n");         
         }else{
-            printf("Attendance is too low.");
+            printf("Attendance is too low.\n");
         }
       }else{
-        printf("Failed exam");
+        printf("Failed exam\n");
       }
       
     }else{
-        printf("Too young");
+        printf("Too young\n");
     }
+}
+
+void mashq3(void) {
+     int yosh = 18;
+     int xujjat = 1;
+
+     if(yosh >= 18 && xujjat == 1){
+        printf("MAshina xaydashga ruxsat");
+     }else{
+        printf("MAshina xaydashga ruxsat emas");
+     }
 
 }
+
+
 
 int main(void) {
     mashq1();
     mashq2();
+    mashq3();
 
     return 0;
 }
