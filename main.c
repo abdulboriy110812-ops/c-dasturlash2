@@ -46,9 +46,9 @@ void mashq3(void) {
      int xujjat = 1;
 
      if(yosh >= 18 && xujjat == 1){
-        printf("MAshina xaydashga ruxsat");
+        printf("Mashina xaydashga ruxsat");
      }else{
-        printf("MAshina xaydashga ruxsat emas");
+        printf("Mashina xaydashga ruxsat emas");
      }
 
 }
